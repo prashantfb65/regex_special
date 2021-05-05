@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 jupyter = "*"
 notebook = "*"
+nltk = "*"
+torch = "*"
+transformers = "*"
 
 [dev-packages]
 
