@@ -15,6 +15,9 @@ https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-l
 
 https://www.youtube.com/watch?v=sa-TUpSx1JA
 
+### Cheat Sheet
+![alt regex_cheat_sheet](regex_cheat_sheet.png)
+
 #### Special Regex Characters
 
 ., +, *, ?, ^, $, (, ), [, ], {, }, |, \.
@@ -396,4 +399,9 @@ text_5 = "Hello Mr. Sachin,"
 
 ```python
 email_exprsn = r"[a-zA-Z0-9-.]+@[a-zA-Z-]+\.(edu|com|net)"
+```
+
+An example of very complex regular expression
+```
+\b(My|my)\s(favourite|favorite)\s([^.,]+).*?\b(is|was|have been|had been)\s([^.]+)
 ```
